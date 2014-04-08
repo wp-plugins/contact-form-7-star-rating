@@ -1,5 +1,5 @@
 /*
- ### Contact Form 7 Star Rating v1.2 - 2014 ###
+ ### Contact Form 7 Star Rating v1.3 - 2014 ###
  * Home: http://www.themelogger.com/
  *
  * Licensed under http://en.wikipedia.org/wiki/MIT_License
