@@ -5,7 +5,7 @@ Plugin URI: http://www.themelogger.com/contact-form-7-star-rating-plugin/
 Description: Contact Form 7 Star Rating
 Author: themelogger.com
 Author URI: http://www.themelogger.com/
-Version: 1.1
+Version: 1.2
 */
 
 /*  Copyright 2014 themelogger.com (email: support at jqhelp.com)
@@ -59,7 +59,7 @@ function wpcf7_enqueue_scripts_starrating2() {
 
 	wp_enqueue_script( 'jquery-wpcf7-starrating',
 		plugins_url( 'contact-form-7-starrating/js/jquery.wpcf7-starrating.js' ),
-            array( 'jquery'), '1.1' , $in_footer );    
+            array( 'jquery'), '1.2' , $in_footer );    
 }
 
 function wpcf7_enqueue_scripts_starrating() {
@@ -85,7 +85,7 @@ function wpcf7_enqueue_styles_starrating() {
 function wpcf7_enqueue_styles_starrating2() {
 	wp_enqueue_style( 'jquery-wpcf7-rating-style',
 		plugins_url( 'contact-form-7-starrating/css/jquery.wpcf7-starrating.css' ),
-		array(), '1.1' );
+		array(), '1.2' );
 }
 
 

@@ -8,15 +8,20 @@ License: GPLv2
 
 This plugin adds Star Rating fields to Contact Form 7.
 
+<h4>Visit the official <a href="http://www.themelogger.com/contact-form-7-star-rating-plugin/" rel="dofollow">Contact Form 7 Star Rating page</a> for viewd demo & additional information</h4>
+
 == Description ==
 This plugin adds Star Rating fields to Contact Form 7.
 
 == Installation ==
-1. Upload plugin files to your plugins folder, or install using WordPress\' built-in Add New Plugin installer
+1. Upload plugin files to your plugins folder, or install using WordPress built-in Add New Plugin installer
 2. Activate the plugin
 3. Edit a form in Contact Form 7
-4. Choose \"Star Rating\" from the Generate Tag dropdown
+4. Choose "Star Rating" from the Generate Tag dropdown
 5. Follow the instructions on the page
+
+= 1.2 =
+* Description update
 
 = 1.1 =
 * Unused files removed
