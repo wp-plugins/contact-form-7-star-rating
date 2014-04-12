@@ -21,6 +21,9 @@ This plugin adds Star Rating fields to Contact Form 7.
 4. Choose "Star Rating" from the Generate Tag dropdown
 5. Follow the instructions on the page
 
+= 1.4 =
+* js loading paths corrected
+
 = 1.3 =
 * Description update
 
