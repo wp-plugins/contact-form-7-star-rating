@@ -5,7 +5,7 @@ Plugin URI: http://www.themelogger.com/contact-form-7-star-rating-plugin/
 Description: Contact Form 7 Star Rating
 Author: themelogger.com
 Author URI: http://www.themelogger.com/
-Version: 1.4
+Version: 1.5
 */
 
 /*  Copyright 2014 themelogger.com (email: support at jqhelp.com)
@@ -58,8 +58,8 @@ function wpcf7_enqueue_scripts_starrating2() {
 		$in_footer = false;
 
 	wp_enqueue_script( 'jquery-wpcf7-starrating',
-		plugins_url( 'contact-form-7-starrating/js/jquery.wpcf7-starrating.js' ),
-            array( 'jquery'), '1.4' , $in_footer );    
+		plugin_dir_url( __FILE__ ).'js/jquery.wpcf7-starrating.js',
+            array( 'jquery'), '1.5' , $in_footer );    
 }
 
 function wpcf7_enqueue_scripts_starrating() {
@@ -69,7 +69,7 @@ function wpcf7_enqueue_scripts_starrating() {
 		$in_footer = false;
 
 	wp_enqueue_script( 'jquery-rating',
-		plugins_url( 'contact-form-7-starrating/jquery.rating/jquery.rating.js' ),
+		plugin_dir_url( __FILE__ ).'jquery.rating/jquery.rating.js' ,
             array( 'jquery'), '4.11' , $in_footer );
     
 }
@@ -77,15 +77,15 @@ function wpcf7_enqueue_scripts_starrating() {
 
 function wpcf7_enqueue_styles_starrating() {
 	wp_enqueue_style( 'jquery-rating-style',
-		plugins_url( 'contact-form-7-starrating/jquery.rating/jquery.rating.css' ),
+		plugin_dir_url( __FILE__ ).'jquery.rating/jquery.rating.css' ,
 		array(), '4.11' );
 }
 
 
 function wpcf7_enqueue_styles_starrating2() {
 	wp_enqueue_style( 'jquery-wpcf7-rating-style',
-		plugins_url( 'contact-form-7-starrating/css/jquery.wpcf7-starrating.css' ),
-		array(), '1.4' );
+		plugin_dir_url( __FILE__ ).'css/jquery.wpcf7-starrating.css' ,
+		array(), '1.5' );
 }
 
 
