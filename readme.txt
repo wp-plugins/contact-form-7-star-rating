@@ -2,7 +2,7 @@
 Contributors: themelogger
 Tags: Star Rating, Stars, Rating, Contact Form 7, form, forms, contactform7, contact form, cf7, cforms ii, cforms, Contact Forms 7, Contact Forms, contacted, contacts,jQuery Star Rating
 Requires at least: 3.0.5
-Tested up to: 3.8.1
+Tested up to: 3.9.1
 Stable tag: trunk
 License: GPLv2
 
