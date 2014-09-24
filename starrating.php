@@ -5,7 +5,7 @@ Plugin URI: http://www.themelogger.com/contact-form-7-star-rating-plugin/
 Description: Contact Form 7 Star Rating
 Author: themelogger.com
 Author URI: http://www.themelogger.com/
-Version: 1.5
+Version: 1.6
 */
 
 /*  Copyright 2014 themelogger.com (email: support at jqhelp.com)

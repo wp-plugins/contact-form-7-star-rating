@@ -1,8 +1,8 @@
 === Contact Form 7 Star Rating ===
 Contributors: themelogger
 Tags: Star Rating, Stars, Rating, Contact Form 7, form, forms, contactform7, contact form, cf7, cforms ii, cforms, Contact Forms 7, Contact Forms, contacted, contacts,jQuery Star Rating
-Requires at least: 3.0.5
-Tested up to: 3.9.1
+Requires at least: 3.8
+Tested up to: 4.0
 Stable tag: trunk
 License: GPLv2
 
@@ -20,6 +20,9 @@ This plugin adds Star Rating fields to Contact Form 7.
 3. Edit a form in Contact Form 7
 4. Choose "Star Rating" from the Generate Tag dropdown
 5. Follow the instructions on the page
+
+= 1.6 =
+* Tested up to: 4.0
 
 = 1.5 =
 * css & js loading paths corrected
